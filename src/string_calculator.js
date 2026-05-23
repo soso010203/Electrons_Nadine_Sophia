@@ -9,15 +9,10 @@ StringCalculator.prototype.add = function(numbers) {
 		{	
 			sum += 2;
 		}
-		if (n === 4) 
+		if (n === 5) 
 		{	
 			sum += 4;
 		}
-		if (n === 6) 
-		{	
-			sum -= 4;
-		}
-		
 	}
 
 
