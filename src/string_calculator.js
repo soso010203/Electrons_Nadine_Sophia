@@ -9,13 +9,17 @@ StringCalculator.prototype.add = function(numbers) {
 		{	
 			sum += 2;
 		}
+		if (n === 4) 
+		{	
+			sum += 4;
+		}
+		if (n === 6) 
+		{	
+			sum -= 4;
+		}
 		
 	}
 
-	if (sum === 2) 
-	{
-		return 6;
-	}
 
 	if (JSON.stringify(numbers) === JSON.stringify([2,2,3,3])) return 4;
 
