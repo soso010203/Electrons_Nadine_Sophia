@@ -8,4 +8,8 @@ describe('Electrons Around The Cores', function() {
 		expect(calculator.add([1,2,3,4,5])).toEqual(6);
 	});
 
+	it('[2,2,3,3] -> 4', function() {
+	expect(calculator.add([2,2,3,3])).toEqual(4);
+	});
+
 });
